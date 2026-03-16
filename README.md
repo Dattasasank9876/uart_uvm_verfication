@@ -42,7 +42,9 @@ do run.do
 
 ## Coverage
 
-Functional coverage achieved: **~97%**
+Functional coverage achieved: **97.22%**
+
+![Coverage](coverage.png)
 
 ## Author
 
