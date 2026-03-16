@@ -34,6 +34,26 @@ Verification
 - uart_parity_error_test
 - uart_stress_test
 
+## Environment Components
+
+The verification environment includes:
+
+- UART Agent
+  - Driver
+  - Monitor
+  - Sequencer
+- Scoreboard
+- Predictor
+- Functional Coverage
+- Assertions
+
+## Tests Implemented
+
+- Base test
+- Stress test
+- Parity error test
+- Random sequence traffic
+  
 ## Simulation
 
 Run the simulation in QuestaSim using:
