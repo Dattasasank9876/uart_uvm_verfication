@@ -36,4 +36,14 @@ Verification
 
 ## Simulation
 
-Run using QuestaSim:
+Run the simulation in QuestaSim using:
+
+do run.do
+
+## Coverage
+
+Functional coverage achieved: **~97%**
+
+## Author
+
+Datta Sasank
