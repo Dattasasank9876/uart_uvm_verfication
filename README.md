@@ -1,15 +1,16 @@
 # UART UVM Verification Environment
 
-This project implements a UVM-based verification environment for a UART design.
+This project implements a UVM-based verification environment for a UART design, validating data transmission, parity handling, stop-bit behavior, and error scenarios using directed and constrained-random testing.
 
 ## Features
 
-- UVM agent, driver, monitor
-- Predictor and scoreboard checking
-- Functional coverage collection
-- Protocol assertions
-- Directed and randomized tests
-- Error injection (parity and frame errors)
+-UVM-based agent with driver, monitor, and sequencer
+-Predictor-based scoreboard for expected vs actual comparison
+-Functional coverage collection for protocol scenarios
+-SystemVerilog protocol assertions (parity and stop-bit checks)
+-Directed and constrained-random test sequences
+-Error injection (parity mismatch and frame errors)
+-TLM communication using uvm_analysis_port and uvm_tlm_analysis_fifo
 
 ## Testbench Architecture
 
